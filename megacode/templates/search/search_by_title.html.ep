@@ -1,6 +1,6 @@
 % layout 'default';
 % title 'Searching result';
-%= stylesheet '/main/snippets.css';
+%= stylesheet '/main/snips.css';
 
 % foreach my $snippet (@$snippets) {
     <section class='snippet'>

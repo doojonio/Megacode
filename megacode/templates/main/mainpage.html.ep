@@ -1,6 +1,6 @@
 % layout 'default';
 % title 'Megacode';
-%= stylesheet 'main/snippets.css';
+%= stylesheet 'main/snips.css';
 
 % my $i = 0;
 % foreach my $snip (@$snippets) { 

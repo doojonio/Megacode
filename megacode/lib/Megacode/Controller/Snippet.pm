@@ -16,6 +16,8 @@ sub create_snippet {
 sub get_created_snippet {
     my $self = shift;
     my $params = $self->req->params->to_hash;
+    $params->{snippet_name} = 'Unnamed snippet' unless $params->{snippet_name};
+    $params->{content} = 'Empty content' unless $params->{content};
 
     my ($snip, $type) = $self->app->model('Snippet')->create_snippet( $params->%* );
 

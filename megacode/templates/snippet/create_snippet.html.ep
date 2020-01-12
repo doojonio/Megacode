@@ -1,8 +1,9 @@
 % layout 'default';
 % title 'Create snippet';
-%= stylesheet '/snippet/creating_page.css';
+%= stylesheet '/snippet/creating_page1.css';
 
 <div class='creating-conteiner'>
+    <h1>Create snippet</h1>
     <form action='/snippet/new' method=POST>
         <label>
             Snippet name

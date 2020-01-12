@@ -1,31 +1,88 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    position: relative;
+    margin: 0;
+    font-family: Courier New, sans-serif;
+    background: #eeedf2;
+}
+
+.wrapper {
     min-height: 100%;
-    font-size: 16px;
-    background: #adfff8;
+    position: relative;
 }
 
 .main-header {
-    width: auto;
+    background: #0d0d0d;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.main-menu .menu-item {
+    display: block;
+    min-width: 80px;
+    height: 60px;
     padding: 10px;
-    background: #90b9ff;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.main-header-item {
-    margin-left: 20px; 
+.main-menu .menu-item:hover {
+    color: #b5b5b5;
 }
 
-.main-header-item:hover {
-    color: blue;
+.main-menu .logo {
+    display: block;
+    height: 60px;
+    min-width: 80px;
+    line-height: 60px;
+    text-indent: -1000px;
+    background: url(/main/megacode-logo1.png) no-repeat;
+}
+
+.content {
+    padding: 0 10px;
+    padding-bottom: 70px;
 }
 
 .main-footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    border-top: 1px solid black;
-    margin-top: 50px;
+    height: 40px;
+    padding: 10px 20px;
+    background: #0d0d0d;
 }
 
-.main-footer .socials-logos {
-    width: 64px;
-    margin: 10px;
+.main-footer .social {
+    display: inline-block;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    background: white;
+}
+
+.main-footer .vk {
+    background: no-repeat url(/main/vk_logo1.png);
+}
+.main-footer .in {
+    background: no-repeat url(/main/in_logo.png);
+}
+.main-footer .tw {
+    background: no-repeat url(/main/tw_logo.png);
 }

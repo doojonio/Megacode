@@ -1,0 +1,29 @@
+h1 {
+    font-size: 60px;
+    width: 330px;
+    margin: 10px auto 20px auto;
+}
+form {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.search-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    height: 40px;
+}
