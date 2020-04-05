@@ -52,7 +52,7 @@ body {
     min-width: 80px;
     line-height: 60px;
     text-indent: -1000px;
-    background: url(/main/megacode-logo1.png) no-repeat;
+    background: url('/main/megacode-logo.png') no-repeat;
 }
 
 .content {
@@ -78,7 +78,7 @@ body {
 }
 
 .main-footer .vk {
-    background: no-repeat url(/main/vk_logo1.png);
+    background: no-repeat url(/main/vk_logo.png);
 }
 .main-footer .in {
     background: no-repeat url(/main/in_logo.png);

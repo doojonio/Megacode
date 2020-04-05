@@ -13,7 +13,7 @@
             <span><%= $snippet->{file}{title}  %>, <%= $snippet->{language}  %> </span>
         </div>
         <div class='code-place'>
-            <pre><%= $snippet->{file}{content}  %></pre>
+            <pre><code class='<%=$snippet->{language}%>'><%= $snippet->{file}{content}  %></pre>
         </div>
     </section>
 % }

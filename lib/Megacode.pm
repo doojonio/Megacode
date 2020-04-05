@@ -7,6 +7,8 @@ sub startup {
   my $self = shift;
 
   $self->plugin('Model');
+  
+  push @{$self->static->paths}, '/app/public';
 
   # Load configuration from hash returned by config file
   my $config = $self->plugin('Config');

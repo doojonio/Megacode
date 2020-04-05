@@ -10,6 +10,6 @@
         <span><%= $res->{'languages'}->{'name'} %></span>
     </div>
     <div class='code-place'>
-        <pre><%= $res->{'files'}->{'content'}%></pre>
+        <pre><code class='<%= $res->{languages}{name} %>'><%= $res->{'files'}->{'content'}%></code></pre>
     </div>
 </div>

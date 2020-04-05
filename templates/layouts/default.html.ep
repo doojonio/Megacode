@@ -2,10 +2,8 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/main/style.css">
+    %= stylesheet '/main/style.css'
+    %= stylesheet '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css'
   </head>
   <body>
   <div class=wrapper>
@@ -30,5 +28,7 @@
         </div>
       </footer>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

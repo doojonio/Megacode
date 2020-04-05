@@ -15,7 +15,7 @@
             <span><%= $snip->{file}{title}  %>, <%= $snip->{language}  %> </span> 
         </div>
         <div class='code-place'>
-            <pre><%= $snip->{file}{content}  %></pre>
+            <pre><code class='<%= $snip->{language} %>'><%= $snip->{file}{content}  %></code></pre>
         </div>
     </section>
 %   $i++;
