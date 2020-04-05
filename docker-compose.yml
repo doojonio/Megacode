@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: megacode-app:latest
+    depends_on:
+      - db
+
+  db:
+    image: postgres:11
+    environment:
+      POSTGRES_PASSWORD: "simple-_password.#!"
+    volumes:
+      - "/home/dockeroid/postgresql/data/:/var/lib/postgresql/data"
